@@ -1,0 +1,27 @@
+
+public class Factorial {
+	int num = 7;
+	int i = 0;
+	
+	int result = 1;
+	
+	Factorial(int num){
+		this.num = num;
+	}
+	void count(int num) {
+		while(i < num) {
+			result *= i;
+			i++;
+		}
+	}
+		
+	
+
+	int getFactorial() {
+		return result;
+	}
+	
+	
+	
+	
+}
